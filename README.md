@@ -36,6 +36,23 @@ It has been created for educational purposes, and the repository owner is not re
 
 Your journey in the exciting world of data science begins here. Dive in, explore, and let's learn together.
 
+### Important Update for Time Series Analysis using Prophet
+For those delving into the state-of-the-art methodologies in time series analysis, it is crucial to note
+that the installation process for the Prophet library, originally developed by Facebook, 
+has undergone significant updates. While the prior approach to installation involved the use of pip install 
+fbprophet==0.7.1, this method has been deprecated due to evolving dependencies and enhancements in the library's architecture.
+
+As of the current landscape, the library has been transitioned to prophet==1.1.5. This iteration marks a substantial leap forward, incorporating advanced features and optimizations that reflect the latest research and best practices in the field of time series forecasting.
+
+It is imperative for data scientists and researchers cloning this repository to utilize the updated installation command:
+
+##### Library
+```sh
+pip install prophet==1.1.5
+```
+
+This ensures compatibility with the most current methodologies and leverages the full potential of Prophet for predictive analytics.
+The transition to this version addresses prior installation issues and sets the stage for more robust and accurate time series modeling.
 
 # Virtual Environment
 ```sh
